@@ -1,0 +1,33 @@
+{
+  "name": "front-end-task",
+  "version": "1.0.0",
+  "description": "工作中产生的项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverz/front-end-task.git"
+  },
+  "keywords": [
+    "front-end"
+  ],
+  "author": "Lever.Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leverz/front-end-task/issues"
+  },
+  "homepage": "https://github.com/leverz/front-end-task#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-scp": "0.0.3",
+    "gulp-shell": "^0.5.2",
+    "gulp-util": "^3.0.7",
+    "sprity": "^1.0.8"
+  }
+}
