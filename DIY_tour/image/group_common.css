@@ -1,0 +1,41 @@
+﻿/* 小组翻页 */
+.paginator2 {padding:10px 10px 10px 10px; margin: 0px; font-size:11px; font-family: Arial, Helvetica, sans-serif; COLOR: #946400;}
+.paginator2 a{ border:#eda000 1px solid;  padding:2px 6px; background-color:#FFF;font-size:11px; text-decoration:none;}
+.pageList2 .this-page { color: #946400; font-size:11px;border:#eda000 1px solid;  padding:2px 6px; text-decoration:none;}
+.paginator2 .break {	border:medium none; padding:2px 6px; BORDER-TOP:none; background-color: #fff; COLOR: #946400; text-decoration:none; font-size:11px;}
+.paginator2 .end {border:#eda000 2px solid; padding:2px 6px; BACKGROUND:#fff; COLOR: #946400; font-size:11px;}
+.paginator2 .this-page {	padding:2px 6px; font-weight:bold; FONT-SIZE: 13px; border:#999; BACKGROUND: #fff; VERTICAL-ALIGN: top; COLOR: #946400; font-size:11px;}
+.paginator2 a:hover {border: #8b4505 1px solid; background-color:#946400; color: #fff; text-decoration: none; font-size:11px;}
+.paginator2 .ranking { margin-top: 0.5em; display:block; FONT-WEIGHT: bold; COLOR: #946400}
+.paginator2 .ranking A {	border: 0px; padding:0px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #946400; }
+.paginator2 .ranking A:hover {BACKGROUND:none transparent scroll repeat 0% 0%; COLOR: #f60; TEXT-DECORATION: underline;}
+
+/* 小组右侧通用 */
+.r_tab {padding-top:10px;}
+.r_tab .tit_area { height:22px; border-bottom:1px solid #E8E2D7; padding:7px 0 0 5px; color:#996600; font-weight:bold; font-size:14px;}
+
+/* 小组通用 */
+.date { color:#AB996D; font-size:10px; font-family:Verdana, Arial; line-height:20px;}
+.author a { color:#EDA000; text-decoration:none;}
+.author a:hover { color:#fff; background-color:#EDA000; text-decoration:none;}
+.author_name a { color:#EDA000; text-decoration:none;}
+.author_name a:hover { color:#fff; background-color:#EDA000; text-decoration:none;}
+.m_photo{width:48px; height:48px;border:1px solid #CCC; padding:1px;}
+
+.red { color:#FF0000;}
+.TT_t{ background-color:#FAEED3; border-bottom:1px dashed #F1D187;}
+
+.i-fengshou {width: 18px;height: 15px;display: block;position: absolute;margin: -10px 0 0 35px;background: url(/images/common/fengshou.png) 0 -55px no-repeat;}
+
+/* 提示框 */
+.alert_k { width:944px; margin:8px auto 0; padding:10px 15px 0 15px; border:1px solid #70C8F8; background-color:#DBF1FD; height:35px;}
+.alert_k .alert_tit { width:800px; background:url(/images/group/icon_alert.gif) left no-repeat; padding:5px 0 0 20px; color:#996600; float:left; line-height:20px;}
+.alert_k .close { width:20px; height:20px; float:right; padding:7px 0 0 0;}
+
+/* 弹出层 */
+.popup { border:5px solid #70C8F8; background-color:#DBF1FD; padding:5px 20px 20px;}
+.popup .close { height:20px; padding:2px 0 0 0; text-align:right;}
+.popup .con { padding:5px 10px 10px; text-align:center;}
+.popup .btn_ok{ background-color:#FF9900; padding:3px 4px 2px; color:#fff; margin:3px 2px 0;border:0; border-bottom:1px solid #CC4F00; border-right:1px solid #CC4F00; border-top:1px solid #fff; border-left:1px solid #fff;}
+.popup .btn_cancle{ background-color:#F0F0F0; padding:3px 4px 2px; margin:3px 2px 0; color:#333; border-bottom:1px solid #848484; border-right:1px solid #848484; border-top:1px solid #fff; border-left:1px solid #fff;}
+.popup .closebtn { padding:12px 0; text-align:center;}
