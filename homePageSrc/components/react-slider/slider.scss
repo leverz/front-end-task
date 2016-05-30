@@ -1,0 +1,81 @@
+.react-slider{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  padding-bottom: 65px;
+
+  &>ul {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: -100%;
+    //transition: left 1s;
+    li{
+      img{
+        height: 525px;
+      }
+    }
+  }
+
+  .slider-item {
+    display: inline-block;
+    height: auto;
+
+    &>img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .slider-arrow {
+    display: inline-block;
+    color: #ccc;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 100;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    @media screen and(max-width: 1350px){
+      margin-top: -30px;
+      width: 40px;
+    }
+    &:hover {
+      color: #333;
+    }
+
+    &.slider-arrow-right {
+      right: 0;
+    }
+    &.slider-arrow-left {
+      left: 0;
+    }
+  }
+
+  .slider-dots-wrap {
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    .slider-dot {
+      display: inline-block;
+      width: 50px;
+      height: 6px;
+      margin: 6px;
+      cursor: pointer;
+      background-color: rgb(232,232,232);
+      &:hover {
+        background-color: rgb(253,211,215);
+      }
+
+      &.slider-dot-selected {
+        background-color: rgb(253,211,215);
+      }
+    }
+  }
+}

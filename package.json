@@ -28,6 +28,8 @@
     "gulp-scp": "0.0.3",
     "gulp-shell": "^0.5.2",
     "gulp-util": "^3.0.7",
+    "jquery": "^1.11.0",
+    "react": "^15.0.2",
     "sprity": "^1.0.8"
   }
 }

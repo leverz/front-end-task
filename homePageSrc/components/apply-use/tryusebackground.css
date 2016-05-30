@@ -1,0 +1,194 @@
+.tryuse{
+    background-image: url("http://static.sofund.com/matrix/images/backimg.png");
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.sofund.com/matrix/images/backimg.png',sizingMethod='scale')";
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 510px;
+    margin: 0 auto;
+}
+.tryusecontent {
+    color: white;
+    min-height:700px;
+}
+.wrap_placeholder span{
+    color: #93847e;
+}
+.tryusecontent h1{
+    font-size: 48px;
+    font-family:微软雅黑;
+    padding-top: 50px;
+    padding-top: 10px;
+}
+.tryusecontent p{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    padding-top: 10px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.title p{
+   
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.title img{
+    margin-top: 50px;
+}
+
+.form{
+   margin: 0 auto;
+   width: 600px;
+}
+.form input{
+    line-height: 40px;
+}
+.form input[type="text"] {
+    background-color: transparent;
+    border-radius: 5px;
+    width:400px ;
+    height: 40px;
+    padding-left: 20px;
+}
+.form input[type="text"]::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:   #93847e;
+}
+.form input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #93847e;
+       opacity:  1;
+}
+.form input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    #93847e;
+       opacity:  1;
+}
+.form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color:    #93847e;
+}
+ /*验证样式*/
+.error input[type='text']{
+    color: red;
+    border: 1px solid red;
+}
+.error input[type='text']::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:   red;
+}
+.error input[type='text']:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    red;
+       opacity:  1;
+}
+.error input[type='text']::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    red;
+       opacity:  1;
+}
+.error input[type='text']:-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color:    red;
+}
+.right input[type='text']{
+    color: white;
+    border: 1px solid #ab9890;
+}
+.invalid input:-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: red;
+    opacity: 1;
+}
+.invalid input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: red;
+    opacity: 1;
+}
+.invalid input:-ms-input-placeholder{
+    color: red;
+}
+.invalid input::-webkit-input-placeholder {
+    color: red;
+}
+.invalid .wrap_placeholder span{
+    color: red;
+}
+.btn{
+
+    background-color: #e82638;
+    font-size: 16px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;  
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#fa3f50;
+}
+.btngray{
+    font-size: 16px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #898989;
+    color: white;
+    cursor: default;
+}
+.formerrordiv{
+  float:right;  
+  margin-top: -10px;
+}
+
+.formerrordiv p{
+    margin-top: 20px;
+    height: 23px;
+    line-height: 1em;
+    width: 150px;    
+    color: red;
+}
+.tryusebtn{   
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;    
+    background-color: #e82638;
+     -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none; 
+   -ms-user-select: none;
+   user-select: none;
+}
+.tryusebtn:hover{
+    background-color: #fa3f50;
+}
+
+.tryusebtndisable{   
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    cursor:default;
+     background-color: gray;
+     -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none; 
+   -ms-user-select: none;
+   user-select: none;
+}
+.tryusebtndisable a{
+    cursor:default;
+}
+
+.tryusebtn a{
+    text-decoration: none;
+}
+
+
+.divshow{
+    display: block;
+}
+.divhide{
+    display: none;
+}

@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "console-polyfill",
+      "/Users/renren/gitrepos/external-matrix/homePageSrc/common_header"
+    ]
+  ],
+  "_from": "console-polyfill@latest",
+  "_id": "console-polyfill@0.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/console-polyfill",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "paul@paulmillr.com",
+    "name": "paulmillr"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "console-polyfill",
+    "raw": "console-polyfill",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/console-polyfill/-/console-polyfill-0.2.2.tgz",
+  "_shasum": "7d1c5ae27493d5088dc4d673dcd669cc6c18bd8e",
+  "_shrinkwrap": null,
+  "_spec": "console-polyfill",
+  "_where": "/Users/renren/gitrepos/external-matrix/homePageSrc/common_header",
+  "author": {
+    "name": "Paul Miller",
+    "url": "paulmillr.com"
+  },
+  "bugs": {
+    "url": "https://github.com/paulmillr/console-polyfill/issues"
+  },
+  "dependencies": {},
+  "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7d1c5ae27493d5088dc4d673dcd669cc6c18bd8e",
+    "tarball": "https://registry.npmjs.org/console-polyfill/-/console-polyfill-0.2.2.tgz"
+  },
+  "gitHead": "17e64a2a9bc98e7ace442852ed3a1f81df0e3819",
+  "homepage": "https://github.com/paulmillr/console-polyfill#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "paul@paulmillr.com",
+      "name": "paulmillr"
+    }
+  ],
+  "name": "console-polyfill",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmillr/console-polyfill.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.2"
+}
