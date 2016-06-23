@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dragdrop</title>
+</head>
+<body>
+	<div class="draggable" style="position: absolute; background: red; width: 200px; height: 200px;"></div>
+	<p id="status"></p>
+
+	<script type="text/javascript" src="./dragdrop.js"></script>
+	<script type="text/javascript">
+		var dragdrop = DragDrop();
+		dragdrop.enable();
+		dragdrop.addHandler("dragstart", function(event){
+			var status = document.getElementById("status");
+			status.innerHTML = "started dragging " + event.target.id;
+		});
+	</script>
+</body>
+</html>
