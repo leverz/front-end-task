@@ -1,0 +1,123 @@
+@import url(./resize.less);
+.view-container{
+	width: 100%;
+	padding-top: 70 / 40rem;
+	padding-bottom: 35 / 40rem;
+	background-image: url(../images/cfa_back.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+img{
+	vertical-align: middle;
+}
+.person-photo{
+	width: 100%;
+	height: 750 / 40rem;
+	background-image: url(../images/cfa_person.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.name{
+	width: 100%;
+	text-align: center;
+	img{
+		width: 4rem;
+	}
+	p{
+		font-size: 27.78 / 40rem;
+		color: #fff;
+		margin: (10 / 40rem) 0 (15 / 40rem) 1.5rem;
+	}
+}
+.info{
+	width: 100%;
+	font-size: 27.78 / 40rem;
+	font-weight: bolder;
+	color: #fff;
+	li{
+		display: inline-block;
+		line-height: 1.5em;
+		padding: 0 100 / 40rem;
+	}
+}
+.cfa-ad{
+	width: 100%;
+	text-align: center;
+	padding-left: 55 / 40rem;
+	margin-top: 35 / 40rem;
+	img{
+		width: 100%;
+	}
+}
+.dear{
+	width: 100%;
+	text-align: center;
+	padding: 0 42 / 40rem;
+	margin-bottom: 25 / 40rem;
+	img{
+		width: 100%;
+	}
+}
+.dist-list{
+	width: 100%;
+	padding: 0 30 / 40rem 0 1rem;
+	.label{
+		font-size: 27.78 / 40rem;
+		padding: 10 / 40rem 45 / 40rem 10 / 40rem 25 / 40rem;
+		display: inline-block;
+		background-image: url("../images/label.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.dist-info{
+		color: #fff;
+		font-weight: bold;
+		line-height: 1.5em;
+		margin: 30 / 40rem 0 20 / 40rem;
+		.big{
+			font-size: 50 / 40rem;
+			color: #fdd835;
+			font-weight: bolder;
+			font-style: italic;
+		}
+	}
+	.important{
+		color: #fdd835;
+		font-weight: bolder;
+		margin-bottom: 35 / 40rem;
+	}
+}
+.code{
+	width: 100%;
+	text-align: center;
+	padding: 0 150 / 40rem;
+	img{
+		width: 100%
+	}
+	p{
+		color: #fff;
+		font-size: 27.78 / 40rem;
+		font-weight: bold;
+		margin: 25 / 40rem 0;
+	}
+}
+.link-list{
+	float: right;
+	margin: 0 25 / 40rem;
+	.item{
+		display: inline-block;
+		&:after{
+			content: "|";
+			color: #fff;
+		}
+		&:last-child{
+			&:after{
+				content: "";
+			}
+		}
+		img{
+			width: 140 / 40rem;
+		}
+	}
+}

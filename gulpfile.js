@@ -13,7 +13,7 @@ var app = gulp.env.app;
 gulp.task('serve', ['less'], function(){
 	browserSync.init({
 		notify: false,
-		port: 9001,
+		port: 9002,
 		server: {
 			baseDir: './' + app + '/',
 		}

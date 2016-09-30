@@ -1,0 +1,233 @@
+/*-------------------reset start-------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a,
+a:visited {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  outline: none;
+}
+select,
+input {
+  outline: none;
+  background: #374148;
+}
+body {
+  position: relative;
+  font-size: 16px;
+  font-family: "Microsoft Yahei", "MicrosoftYaHei", "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+img {
+  border-width: 0;
+}
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  box-sizing: border-box;
+}
+input,
+textarea {
+  box-sizing: border-box;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #5d6c78;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #5d6c78;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #5d6c78;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #5d6c78;
+}
+input::-ms-clear,
+textarea::-ms-clear {
+  display: none;
+}
+html {
+  font-size: 20px;
+}
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: 360px) {
+  html {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (min-width: 401px) {
+  html {
+    font-size: 23px !important;
+  }
+}
+@media only screen and (min-width: 428px) {
+  html {
+    font-size: 26.75px !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important;
+  }
+}
+@media only screen and (min-width: 569px) {
+  html {
+    font-size: 35px !important;
+  }
+}
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important;
+  }
+}
+/*-------------------reset end-------------------*/
+.view-container {
+  width: 100%;
+  padding-top: 1.75rem;
+  padding-bottom: 0.875rem;
+  background-image: url(../images/cfa_back.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+}
+.person-photo {
+  width: 100%;
+  height: 18.75rem;
+  background-image: url(../images/cfa_person.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.name {
+  width: 100%;
+  text-align: center;
+}
+.name img {
+  width: 4rem;
+}
+.name p {
+  font-size: 0.6945rem;
+  color: #fff;
+  margin: 0.25rem 0 0.375rem 1.5rem;
+}
+.info {
+  width: 100%;
+  font-size: 0.6945rem;
+  font-weight: bolder;
+  color: #fff;
+}
+.info li {
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0 2.5rem;
+}
+.cfa-ad {
+  width: 100%;
+  text-align: center;
+  padding-left: 1.375rem;
+  margin-top: 0.875rem;
+}
+.cfa-ad img {
+  width: 100%;
+}
+.dear {
+  width: 100%;
+  text-align: center;
+  padding: 0 1.05rem;
+  margin-bottom: 0.625rem;
+}
+.dear img {
+  width: 100%;
+}
+.dist-list {
+  width: 100%;
+  padding: 0 0.75rem 0 1rem;
+}
+.dist-list .label {
+  font-size: 0.6945rem;
+  padding: 0.25rem 1.125rem 0.25rem 0.625rem;
+  display: inline-block;
+  background-image: url("../images/label.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.dist-list .dist-info {
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin: 0.75rem 0 0.5rem;
+}
+.dist-list .dist-info .big {
+  font-size: 1.25rem;
+  color: #fdd835;
+  font-weight: bolder;
+  font-style: italic;
+}
+.dist-list .important {
+  color: #fdd835;
+  font-weight: bolder;
+  margin-bottom: 0.875rem;
+}
+.code {
+  width: 100%;
+  text-align: center;
+  padding: 0 3.75rem;
+}
+.code img {
+  width: 100%;
+}
+.code p {
+  color: #fff;
+  font-size: 0.6945rem;
+  font-weight: bold;
+  margin: 0.625rem 0;
+}
+.link-list {
+  float: right;
+  margin: 0 0.625rem;
+}
+.link-list .item {
+  display: inline-block;
+}
+.link-list .item:after {
+  content: "|";
+  color: #fff;
+}
+.link-list .item:last-child:after {
+  content: "";
+}
+.link-list .item img {
+  width: 3.5rem;
+}
